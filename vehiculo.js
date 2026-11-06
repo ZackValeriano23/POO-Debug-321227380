@@ -10,6 +10,7 @@ class Vehiculo {
 
 class Automovil extends Vehiculo {
     constructor(marca, puertas) {
+        super(marca);
         this.puertas = puertas;
     }
 
