@@ -11,4 +11,5 @@ class CuentaBancaria {
 }
 
 const cuenta = new CuentaBancaria(500);
-console.log(`Saldo disponible: ${cuenta.#saldo}`);
+console.log(`Saldo disponible: ${cuenta.consultarSaldo()}`);
+
